@@ -1,0 +1,85 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9fafc;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 2rem 5%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 4rem 10%;
+    }
+
+    h2 {
+      color: #1a1a2e;
+      margin-bottom: 1rem;
+      border-left: 4px solid #e94560;
+      padding-left: 10px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skills li {
+      background: #e94560;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-weight: 500;
+    }
+
+    .projects .card {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .projects .card h3 {
+      color: #e94560;
+    }
+
+    footer {
+      background: #1a1a2e;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #e94560;
+      text-decoration: none;
+      font-weight: bold;
+    }
